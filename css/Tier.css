@@ -1,0 +1,44 @@
+body {
+    font-family:^"Montserrat", sans-serif;
+    overflow-x: hidden;
+}
+
+#menu li > a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+
+#menu form > button {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.carousel-inner{
+    max-height: 39rem;
+}
+
+@media(max-width:768px) {
+    #intro, #equipo {
+        width: 90% !important;
+    }
+}
+
+.servicio-fila{
+    width: 100% !important;
+    text-align: center;
+}
+
+@media(max-width: 576px) {
+    .icono-wrap {
+        flex-wrap: wrap;
+        Justify-content: center !important;
+    }
+};
+
+footer{
+    background:#000;
+    color:#fff;
+    clear: both;
+    }
+    
